@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100&display=swap');
+$bg: linear-gradient(#059ff89c, #0f0f0f);
+$bg2: #000000;
+$textcolor: #fffffff1;
+
+
 @import "index";
 @import "catalogo";
 @import "contacto";
@@ -6,6 +10,7 @@
 @import "nosotros";
 @import "footer";
 @import "header";
+@import "body";
 
 *{
     margin: 0%;
@@ -13,9 +18,6 @@
     box-sizing: border-box;
 }
 
-body{
-    background: linear-gradient(#059ff89c, #0f0f0f);
-    font-family: 'Poppins', sans-serif;
-    }
+
 
 

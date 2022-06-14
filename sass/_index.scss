@@ -6,8 +6,8 @@ main{
     h2{
         display: flex;
         justify-content: center;
-        background-color: black;
-        color: aliceblue;
+        background-color: $bg2;
+        color: $textcolor;
         font-weight: bold;
     }
     section{
