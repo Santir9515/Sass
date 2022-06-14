@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100&display=swap");
+/*Comienza el header*/
+/*Main*/
+main {
+  height: 649px; }
+  main h2 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold; }
+  main section {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%; }
+    main section div div div div {
+      background-color: black; }
+      main section div div div div h5 {
+        padding: 1rem; }
+      main section div div div div p {
+        font-weight: bold; }
+
+/*footer*/
+.catalogo {
+  height: 1700px; }
+  .catalogo div div div div img {
+    height: 30px; }
+
+.contacto {
+  height: 665px; }
+
+.carrito {
+  height: 673px; }
+  .carrito h5 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold; }
+
+.nosotros {
+  height: 750px; }
+
+footer div p {
+  font-size: 8px;
+  display: flex;
+  justify-content: center; }
+
+header h1 {
+  font-weight: bold; }
+  header h1 img {
+    height: 100px;
+    width: 100px; }
+
+header div ul li img {
+  height: 30px;
+  width: 30px; }
+
+* {
+  margin: 0%;
+  padding: 0%; }
+
+body {
+  background: linear-gradient(#029ffa9c, #0f0f0f);
+  font-family: 'Poppins', sans-serif; }

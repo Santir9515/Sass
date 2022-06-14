@@ -1,0 +1,38 @@
+/*Comienza el header*/
+
+/*Main*/
+main{
+    height: 649px;
+    h2{
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        color: aliceblue;
+        font-weight: bold;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        height: 500px;
+        width: 100%;
+        div{
+            div{
+                div{
+                    div{
+                        background-color: black;
+                        h5{
+                            padding: 1rem;
+                        }
+                        p{
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+/*footer*/
+
