@@ -59,8 +59,9 @@ header div ul li img {
 
 * {
   margin: 0%;
-  padding: 0%; }
+  padding: 0%;
+  box-sizing: border-box; }
 
 body {
-  background: linear-gradient(#029ffa9c, #0f0f0f);
+  background: linear-gradient(#059ff89c, #0f0f0f);
   font-family: 'Poppins', sans-serif; }
