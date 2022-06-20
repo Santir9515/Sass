@@ -1,5 +1,11 @@
+@mixin sizes ($height){
+    height: $height;
+}
+
 .carrito{
-    height: 673px;
+    .carrito{
+        @include sizes (673px);
+    }
     h5{
         display: flex;
         justify-content: center;

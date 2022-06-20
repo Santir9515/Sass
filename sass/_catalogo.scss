@@ -1,11 +1,17 @@
+@mixin sizes ($height){
+    height: $height;
+}
+
+
+
 .catalogo{
-    height: 1700px;
+    @include sizes(1700px);
     div{
         div{
             div{
                 div{
                     img{
-                        height: 30px;
+                        @include sizes(30px)
                     }
                 }
             }

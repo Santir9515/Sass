@@ -1,8 +1,7 @@
-/*Comienza el header*/
-/*Main*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100&display=swap");
 main {
-  height: 649px; }
+  height: 649px;
+  width: auto; }
   main h2 {
     display: flex;
     justify-content: center;
@@ -21,7 +20,6 @@ main {
       main section div div div div p {
         font-weight: bold; }
 
-/*footer*/
 .catalogo {
   height: 1700px; }
   .catalogo div div div div img {
@@ -30,14 +28,15 @@ main {
 .contacto {
   height: 665px; }
 
-.carrito {
+.carrito .carrito {
   height: 673px; }
-  .carrito h5 {
-    display: flex;
-    justify-content: center;
-    background-color: #000000;
-    color: #fffffff1;
-    font-weight: bold; }
+
+.carrito h5 {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  color: #fffffff1;
+  font-weight: bold; }
 
 .nosotros {
   height: 750px; }
@@ -60,6 +59,28 @@ header div ul li img {
 body {
   background: linear-gradient(#059ff89c, #0f0f0f);
   font-family: 'Poppins', sans-serif; }
+
+@media screen and (max-width: 480px) {
+  .Imagen_contactos {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: flex-start;
+    padding-bottom: 2rem; }
+  .Imagen__Destacada {
+    width: 250px;
+    height: 450px; }
+  .container.contacto {
+    padding-left: 1rem; }
+  .contacto {
+    height: 740px; }
+  .nosotros div div div iframe {
+    width: 250px;
+    height: 150px; }
+  .catalogo {
+    height: 2500px; }
+  .contacto2 {
+    height: 760px; } }
 
 * {
   margin: 0%;

@@ -1,8 +1,10 @@
-/*Comienza el header*/
+@mixin sizes ($height, $width){
+    height: $height;
+    width: $width;
+}
 
-/*Main*/
 main{
-    height: 649px;
+    @include sizes(649px, auto);
     h2{
         display: flex;
         justify-content: center;
@@ -13,8 +15,7 @@ main{
     section{
         display: flex;
         justify-content: center;
-        height: 500px;
-        width: 100%;
+        @include sizes(500px, 100%);
         div{
             div{
                 div{
@@ -34,5 +35,4 @@ main{
     }
 }
 
-/*footer*/
 
